@@ -8,10 +8,6 @@ public class Phoenix
         _toDb = toDb;
     }
 
-    public Phoenix()
-    {
-    }
-
     public void SyncData()
     {
         ArgumentNullException.ThrowIfNull(_fromDb, nameof(_fromDb));
